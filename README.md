@@ -73,5 +73,5 @@ Open a Pull Request.
 This project is licensed under the MIT License.
 
 📧 Contact
-For any queries, reach out at: your.email@example.com
+For any queries, reach out at: aditighosh138@gmail.com
 
