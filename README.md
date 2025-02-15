@@ -2,10 +2,10 @@
 
 An AI-powered assistive application for visually impaired individuals
 
-📌 Overview
+## 📌 Overview
 Beyond Sight is an AI-led application designed to assist visually impaired individuals with daily activities through voice-guided navigation, object detection, facial recognition, and auditive assistance. The application integrates machine learning models for real-time object detection, facial and expression recognition, and text-to-speech conversion using Google Cloud TTS.
 
-✨ Features
+## ✨ Features
 Voice-Guided Navigation: Provides real-time audio guidance for movement.
 
 Object Detection: Identifies objects in the environment and describes them to the user.
@@ -16,7 +16,7 @@ Text-to-Speech (TTS) Integration: Converts on-screen text to speech for accessib
 
 CSV Database for Face Recognition: Stores names, contact numbers, and images for personalized interactions.
 
-🛠️ Installation
+## 🛠️ Installation
 Prerequisites
 Ensure you have the following installed:
 
@@ -30,7 +30,7 @@ Google Cloud Text-to-Speech API
 
 Flask (if using a web interface)
 
-Setup
+## Setup
 Clone the repository:
 
 git clone https://github.com/your-username/BeyondSight.git
@@ -48,7 +48,7 @@ export GOOGLE_APPLICATION_CREDENTIALS="path/to/your/service-account-file.json"
 Run the application:
 
 python main_webcam.py
-🚀 Usage
+## 🚀 Usage
 Launch the application and follow the voice commands.
 
 Hold the camera in front of objects or faces to get real-time descriptions.
@@ -56,7 +56,7 @@ Hold the camera in front of objects or faces to get real-time descriptions.
 Use voice input for interaction.
 
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Follow these steps:
 
 Fork the repository.
@@ -69,7 +69,7 @@ Push to the branch: git push origin feature-branch
 
 Open a Pull Request.
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License.
 
 📧 Contact
