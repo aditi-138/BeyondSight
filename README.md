@@ -1,5 +1,4 @@
-
-Beyond Sight
+#Beyond Sight
 An AI-powered assistive application for visually impaired individuals
 
 📌 Overview
