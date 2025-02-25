@@ -41,7 +41,7 @@ CSV Database for storing recognized faces
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/KrishnaLodha/BeyondSight.git
+git clone https://github.com/aditi-138/BeyondSight.git
 cd BeyondSight
 
 2️⃣ Install Dependencies
