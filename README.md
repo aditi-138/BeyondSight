@@ -1,77 +1,83 @@
-# Beyond Sight
+# BeyondSight
 
-An AI-powered assistive application for visually impaired individuals
+Beyond Sight is an AI-powered assistive application designed to help vision-impaired individuals to navigate their surroundings with ease and also to know who is coming towards them with the help of facial recognition using their saved contact database. The application provides real-time voice-guided navigation, object detection, facial recognition, and auditory assistance to improve accessibility and independence.
 
-## 📌 Overview
-Beyond Sight is an AI-led application designed to assist visually impaired individuals with daily activities through voice-guided navigation, object detection, facial recognition, and auditive assistance. The application integrates machine learning models for real-time object detection, facial and expression recognition, and text-to-speech conversion using Google Cloud TTS.
+🚀 Features
 
-## ✨ Features
-Voice-Guided Navigation: Provides real-time audio guidance for movement.
+Voice-Guided Navigation: Provides step-by-step audio guidance to help users move safely.
 
-Object Detection: Identifies objects in the environment and describes them to the user.
+Object Detection: Identifies objects in the environment and describes them audibly.
 
-Facial Recognition: Detects and recognizes faces from a stored database.
+![image](https://github.com/user-attachments/assets/761ab099-bb75-4c8b-902b-a99936dc53af)
 
-Text-to-Speech (TTS) Integration: Converts on-screen text to speech for accessibility.
 
-CSV Database for Face Recognition: Stores names, contact numbers, and images for personalized interactions.
+Facial Recognition: Recognizes and speaks out names of familiar individuals based on a CSV database.
 
-## 🛠️ Installation
-Prerequisites
-Ensure you have the following installed:
+![image](https://github.com/user-attachments/assets/3886843c-1fe4-4ac6-a55e-4c63dad80610)
 
-Python 3.12
 
-OpenCV (cv2)
+Audio Assistance: Converts detected text and recognized names into speech using ElevenLabs TTS API.
 
-TensorFlow & Keras
+Depth Detection: Detects how far is the object
 
-Google Cloud Text-to-Speech API
+![image](https://github.com/user-attachments/assets/cda9f866-8507-4da6-8f5c-9208e1669e56)
 
-Flask (if using a web interface)
 
-## Setup
-Clone the repository:
 
-git clone https://github.com/your-username/BeyondSight.git
+
+🛠️ Technologies Used
+
+Python (OpenCV, Face Recognition, TensorFlow, NumPy, Pandas)
+
+Text-to-Speech (TTS) via ElevenLabs API
+
+Computer Vision for facial and object recognition
+
+Machine Learning for facial detection
+
+CSV Database for storing recognized faces
+
+🔧 Installation
+
+1️⃣ Clone the Repository
+
+git clone https://github.com/KrishnaLodha/BeyondSight.git
 cd BeyondSight
-Install dependencies:
+
+2️⃣ Install Dependencies
 
 pip install -r requirements.txt
-Set up Google Cloud Text-to-Speech:
 
-Create a Google Cloud account and enable TTS API.
+3️⃣ Set Up ElevenLabs API
 
-Download the service account JSON key and set the environment variable:
+Sign up at ElevenLabs
 
-export GOOGLE_APPLICATION_CREDENTIALS="path/to/your/service-account-file.json"
-Run the application:
+Get your API key.
 
-python main_webcam.py
-## 🚀 Usage
-Launch the application and follow the voice commands.
-
-Hold the camera in front of objects or faces to get real-time descriptions.
-
-Use voice input for interaction.
+Open speech.py and replace your_api_key_here with your actual key.
 
 
-## 🤝 Contributing
-Contributions are welcome! Follow these steps:
+📌 How It Works
 
-Fork the repository.
+The camera detects faces and objects in real-time.
 
-Create a new branch: git checkout -b feature-branch
+If a face is recognized, the system speaks the person's name.
 
-Commit your changes: git commit -m "Add new feature"
+Objects in the surroundings are identified and described audibly.
 
-Push to the branch: git push origin feature-branch
+The system provides navigation assistance using voice commands.
 
-Open a Pull Request.
+⚡ Future Enhancements
 
-## 📜 License
-This project is licensed under the MIT License.
+Multi-Language Support: Enable support for multiple languages in TTS.
 
-📧 Contact
-For any queries, reach out at: aditighosh138@gmail.com
+Gesture Recognition: Allow users to give commands via hand gestures.
+
+Cloud Integration: Store user profiles and history for personalized assistance.
+
+📜 License
+
+This project is licensed under the MIT License. Feel free to modify and use it!
+
+
 
